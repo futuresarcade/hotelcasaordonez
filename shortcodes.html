@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="css/plugins/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/jquery-ui-1.10.1.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/dropdown-menu.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/fancybox/jquery.fancybox.css">
+
+    <!-- Styles Main -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Hotelaila</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+     <!-- Pre Loader -->
+    <div id='preloader'>
+        <div id='status'>
+            <ul class='loader'>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- HEADER -->
+    <header>
+        <!-- Header Bar -->
+        <div id="header-bar" class="header-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">                        
+                        <div class="row">
+                                <!-- Logo -->
+                                <div class="col-sm-3 col-md-2">
+                                    <div class="logo">
+                                        <a href="javascript:;">
+                                            <img src="images/logo.png" alt="Hotelaila Home" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Main Menu & Welcome Panel-->
+                            <div class="col-sm-9 col-md-10">
+                                <div class="mobile-nav">
+                                    <a href="javascript:;"></a>
+                                </div>
+                                <ul id="main-nav" class="main-menu">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">Accommodation</a>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:;">Rooms</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="rooms-3-columns.html">Room 3 Columns</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="rooms-4-columns.html">Room 4 Columns</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="room-single.html">Room Single</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="booking.html">Booking</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">Pages</a>
+                                        <ul>
+
+                                            <li>
+                                                <a href="about.html">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="gallery.html">Gallery</a>
+
+                                            </li>
+                                            <li>
+                                                <a href="columns.html">Columns</a>
+                                            </li>
+                                            <li>
+                                                <a href="typography.html">Typography</a>
+                                            </li>
+                                            <li>
+                                                <a href="shortcodes.html">Shortcodes</a>
+                                            </li>
+                                            <li>
+                                                <a href="with-sidebar.html">With Sidebar</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html">404</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;">Blog</a>
+                                        <ul>
+                                            <li>
+                                                <a href="blog-list.html">Blog List</a>
+                                            </li>
+                                            <li>
+                                                <a href="blog-single.html">Blog Single</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+
+                                 <!-- Welcome Panel -->
+                                <div class="welcome-panel">
+                                    
+                                    <!-- Lang -->
+                                    <div class="lang">
+                                        <span>
+                                             <a href="javascript:;" title="Turkish">TR</a><a href="javascript:;" title="English">EN</a>
+                                        </span>
+                                    </div>
+                                    
+                                    <!-- Booking -->
+                                    <a href="javascript:;" class="panel-button">
+                                        <span>BOOKING</span>
+                                        <i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <div class="panel-form">
+                                        <div class="inner15">
+                                            <form>
+                                                <strong>ROOM AVAILABILITY</strong>
+                                                <div class="form-row two-col">
+                                                    <input class="datepicker" placeholder="Check-in Date" type="text">
+                                                    <input class="datepicker" placeholder="Check-out Date" type="text">
+                                                </div>
+                                                <div class="form-row">
+                                                    <select name="check-in-date">
+                                                        <option>Adults</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                    <select name="check-in-date">
+                                                        <option>Children</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-row">
+                                                    <button type="submit" id="book-now" class="btn btn-default">CHECK AVAILABILITY</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            </div>                         
+                    </div>
+                </div>
+            </div>         
+        </div>
+        <!-- Header Wrapper -->
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="row">
+
+                     <!-- Header Content -->
+                    <div class="header-content">
+
+                        <!-- Head -->
+                        <div class="col-sm-12">
+                            <div class="header-title">
+                                <h2>Shortcodes</h2>
+                            </div>
+                             <ol class="breadcrumb">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="active">Shortcodes</li>
+                            </ol>
+                        </div>            
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <div class="container">
+            <div class="row mb30">
+                <div class="col-md-12">
+                    <h5>Shortcode Elements</h5>
+                    <strong>TAB PANEL</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Tab Buttons -->
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a href="#tab1" data-toggle="tab">Tab Pane</a>
+                        </li>
+                        <li>
+                            <a href="#tab2" data-toggle="tab">Tab Pane2</a>
+                        </li>
+                        <li>
+                            <a href="#tab3" data-toggle="tab">Tab Pane3</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active in fade" id="tab1">
+                            <div class="inner30">
+                                Donec pulvinar metus nec justo faucibus fermentum. Sed et rhoncus mauris. Sed rhoncus dolor in urna ultrices mattis. Donec ut ornare velit. Integer sodales, lorem eu pellentesque scelerisque, urna orci lobortis mauris, sed facilisis mi est eu enim. Aenean felis tellus, consequat nec hendrerit a, ornare quis arcu. Aenean imperdiet sem nec mauris bibendum tristique. Etiam eros erat, feugiat ac fringilla sed, ultricies sed tellus. Suspendisse nisi sem, rhoncus sit amet malesuada nec, placerat ut magna. Morbi gravida lacus massa, quis tincidunt nisi. Sed porttitor ullamcorper fringilla imperdiet sem nec mauris bibendum tristique. Quisque et purus turpis.
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tab2">
+                            <div class="inner30">
+                                Cras sodales ac nibh non tempus. Nam consequat nec arcu eget gravida. Vestibulum tempor dignissim justo, sit amet pretium nunc aliquet sit amet. Donec molestie venenatis tincidunt. Nam pellentesque mollis eros ac varius. Vivamus congue nulla in pellentesque interdum. Donec non purus sapien. Suspendisse tortor tellus, aliquet non massa at, interdum fermentum diam.
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tab3">
+                            <div class="inner30">
+                                Fusce sit amet facilisis nisl. Etiam at neque metus. Proin luctus ac enim at bibendum. Nunc commodo eros eget rutrum volutpat. Nullam tincidunt, lacus sit amet congue mollis, velit justo rutrum erat, rutrum rutrum enim purus in velit. Donec ac risus id est lacinia mattis. Mauris non bibendum augue.
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <strong>ACCORDION PANEL</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Accordion Panel -->
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        Collapsible Group Item #1
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                        Collapsible Group Item #2
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <div class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                        Collapsible Group Item #3
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb30">
+                <div class="col-md-6">
+                    <strong>CAROUSEL</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Carousel -->
+                    <div id="carousel2" class="carousel slide mb15" data-ride="carousel">
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="inner30">
+                                    <strong>WHAT'S THE PLAN?</strong>
+                                    <br>Pellentesque scelerisque, diam sed porttitor condimentum, felis risus euismod neque, a scelerisque erat erat eu mi. Donec in euismod mi. Duis eu metus quis lorem fermentum commodo in non nunc. Sed a ultricies ante.
+                                    <br>Aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                            </div>
+                            <div class="item">
+                                <div class="inner30">
+                                    <strong>WHAT'S THE NEXT PLAN?</strong>
+                                    <br>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                            </div>
+                        </div>
+
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel2" data-slide="prev">
+                            <span class="fa fa-angle-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel2" data-slide="next">
+                            <span class="fa fa-angle-right"></span>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <strong>CAROUSEL IMAGE</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Carousel (Image) -->
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="border" src="images/590x393.gif" alt="Amazing Garden" />
+                            </div>
+                            <div class="item">
+                                <img class="border" src="images/590x393.gif" alt="Amazing Garden" />
+                            </div>
+                            <div class="item">
+                                <img class="border" src="images/590x393.gif" alt="Amazing Garden" />
+                            </div>
+                        </div>
+
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel" data-slide="prev">
+                            <span class="fa fa-angle-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel" data-slide="next">
+                            <span class="fa fa-angle-right"></span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+                <!-- Tooltips -->
+                <div class="col-md-6">
+                    <strong>TOOLTIP</strong>
+                    <br>
+                    <br>Suspendisse non mattis mauris. Etiam commodo tortor ut fermentum viverra.
+                    <a href="#" data-toggle="tooltip" class="tip-top" title="Tooltip Example Top">Tooltip top</a>Etiam posuere facilisis dolor, at semper
+                    <a href="#" data-toggle="tooltip" class="tip-bottom" title="Tooltip Example Bottom">tooltip bottom</a>dolor volutpat egestas. Fusce venenatis orci ligula, eu varius neque tincidunt quis. Nullam risus libero, consequat et blandit ac,
+                    <a href="#" data-toggle="tooltip" class="tip-right" title="Tooltip Example Right">tooltip right</a>consequat vitae nisl. Ut tincidunt, nulla id vestibulum fermentum, nisl odio commodo lectus, facilisis dapibus dolor
+                    <a href="#" data-toggle="tooltip" class="tip-left" title="Tooltip Example Left">tooltip left</a>libero in mauris.
+                    <br>
+                    <br>
+
+                </div>
+                <div class="col-md-6">
+                    <strong>BUTTONS</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Default button -->
+                    <button type="button" class="btn btn-default btn-lg">Default</button>
+
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <button type="button" class="btn btn-primary">Primary</button>
+
+                    <!-- Indicates a successful or positive action -->
+                    <button type="button" class="btn btn-success btn-sm">Success</button>
+
+                    <!-- Contextual button for informational alert messages -->
+                    <button type="button" class="btn btn-info btn-xs">Info</button>
+
+                    <br>
+                    <br>
+                    <!-- Standard button -->
+                    <button type="button" class="btn btn-default">Default</button>
+
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <button type="button" class="btn btn-primary">Primary</button>
+
+                    <!-- Indicates a successful or positive action -->
+                    <button type="button" class="btn btn-success">Success</button>
+
+                    <!-- Contextual button for informational alert messages -->
+                    <button type="button" class="btn btn-info">Info</button>
+
+                    <!-- Indicates caution should be taken with this action -->
+                    <button type="button" class="btn btn-warning">Warning</button>
+
+                    <!-- Indicates a dangerous or potentially negative action -->
+                    <button type="button" class="btn btn-danger">Danger</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <strong>ALERT MESSAGES</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Alert Success -->
+                    <div class="alert alert-success fade in">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <strong>Holy guacamole!</strong>Best check yo self, you're not looking too good.
+                    </div>
+                    
+                    <!-- Alert Warning -->
+                    <div class="alert alert-warning fade in">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <strong>Holy guacamole!</strong>Best check yo self, you're not looking too good.
+                    </div>
+                    
+                    <!-- Alert Info -->
+                    <div class="alert alert-info fade in">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <strong>Holy guacamole!</strong>Best check yo self, you're not looking too good.
+                    </div>
+                    
+                    <!-- Alert Danger -->
+                    <div class="alert alert-danger fade in">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <strong>Holy guacamole!</strong>Best check yo self, you're not looking too good.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <!-- Services -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main-services">
+                        <div class="main-services-item">
+                            <i class="fa fa-clock-o"></i>
+                            <span>OPEN 24 HOURS</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-medkit"></i>
+                            <span>HOSPITAL</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-plane"></i>
+                            <span>AIRPORT</span>
+                        </div>
+
+                        <div class="main-services-item">
+                            <i class="fa fa-gamepad"></i>
+                            <span>VIDEO GAMES</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-cutlery"></i>
+                            <span>BREAKFAST</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-picture-o"></i>
+                            <span>NATURE LANDSCAPE</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-signal"></i>
+                            <span>WIRELESS</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-book"></i>
+                            <span>LIBRARY</span>
+                        </div>
+                        <a class="top" href="#top">
+                            <img src="images/arrows/up-arrow.png" width="21" height="12" alt="Go to top" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Contact -->
+                <div class="col-sm-9">
+                    <div class="main-contact">
+                        <img class="logo-footer" src="images/logo.png">
+                        <adress>
+                            <span>
+                                <i class="fa fa-map-marker"></i>393 West Street, New York 163915 U.S</span>
+                            <span>
+                                <i class="fa fa-mobile"></i>5555 555 55 5</span>
+                            <span>
+                                <i class="fa fa-envelope"></i>info@hotelaila.com</span>
+                        </adress>
+                    </div>
+                </div>
+
+                <!-- Social -->
+                <div class="col-sm-3">
+                    <div class="main-social">
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                         
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- Footer Links & Copy -->
+            <div class="row">
+                <div class="col-sm-5">
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript:;">PRIVACY POLICY</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">TERMS AND CONDITIONS</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">PRESS</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Copyright -->
+                <div class="col-sm-7">
+                    <div class="copy">
+                        <span>COPYRIGHT © 2013 ALL RIGHT RESERVED. DESIGNED BY
+                            <a href="javascript:;">GRAPHOLY.COM</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Js Plugins-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/plugins/dropdown-menu.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.isotope.min.js"></script>
+
+    <!-- Js Main -->
+    <script type="text/javascript" src="js/custom.js"></script>
+     
+</body>
+
+</html>

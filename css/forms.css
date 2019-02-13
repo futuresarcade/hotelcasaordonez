@@ -1,0 +1,17 @@
+/****************************
+         Form Items 
+*****************************/
+
+input,textarea{	font: 300 1em;background-color: #f8f8f8;border:0;padding: 5px 8px;color:#A0A0A0;border-radius:0; }
+select{	font-size:1em;background-image: url(../images/arrow_down_form.png);background-repeat: no-repeat;background-position: 90% center;
+	background-color: #f8f8f8;color: #A0A0A0;border: none;-webkit-appearance: none;border-radius: 0;padding: 5px 10px;margin:0;
+    margin-bottom: 10px;outline: none; }
+	
+input[type=button]{ font: 500 1em 'Raleway', sans-serif;-webkit-appearance: none;background:#000;cursor:pointer;border:0;margin:0;
+	padding:8px 15px;color:#fff;font-weight:700; }
+input[type=button]:hover{   }
+input[type=button]:active{ background:#000;	}
+
+input:focus, select:focus, textarea:focus{ -webkit-box-shadow: 0px 0px 18px 0px rgba(201, 201, 201, 1);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(201, 201, 201, 1);box-shadow: 0px 0px 18px 0px rgba(201, 201, 201, 1);
+    -webkit-transition: all 0.4s ease-in;background-color:#fff;font-weight: 700;color: #463e3e; }

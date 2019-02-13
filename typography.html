@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="css/plugins/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/jquery-ui-1.10.1.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/dropdown-menu.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins/fancybox/jquery.fancybox.css">
+
+    <!-- Styles Main -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Hotelaila</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+     <!-- Pre Loader -->
+    <div id='preloader'>
+        <div id='status'>
+            <ul class='loader'>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- HEADER -->
+    <header>
+        <!-- Header Bar -->
+        <div id="header-bar" class="header-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">                        
+                        <div class="row">
+                                <!-- Logo -->
+                                <div class="col-sm-3 col-md-2">
+                                    <div class="logo">
+                                        <a href="javascript:;">
+                                            <img src="images/logo.png" alt="Hotelaila Home" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Main Menu & Welcome Panel-->
+                            <div class="col-sm-9 col-md-10">
+                                <div class="mobile-nav">
+                                    <a href="javascript:;"></a>
+                                </div>
+                                <ul id="main-nav" class="main-menu">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">Accommodation</a>
+                                        <ul>
+                                            <li>
+                                                <a href="javascript:;">Rooms</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="rooms-3-columns.html">Room 3 Columns</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="rooms-4-columns.html">Room 4 Columns</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="room-single.html">Room Single</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="booking.html">Booking</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">Pages</a>
+                                        <ul>
+
+                                            <li>
+                                                <a href="about.html">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="gallery.html">Gallery</a>
+
+                                            </li>
+                                            <li>
+                                                <a href="columns.html">Columns</a>
+                                            </li>
+                                            <li>
+                                                <a href="typography.html">Typography</a>
+                                            </li>
+                                            <li>
+                                                <a href="shortcodes.html">Shortcodes</a>
+                                            </li>
+                                            <li>
+                                                <a href="with-sidebar.html">With Sidebar</a>
+                                            </li>
+                                            <li>
+                                                <a href="404.html">404</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:;">Blog</a>
+                                        <ul>
+                                            <li>
+                                                <a href="blog-list.html">Blog List</a>
+                                            </li>
+                                            <li>
+                                                <a href="blog-single.html">Blog Single</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+
+                                 <!-- Welcome Panel -->
+                                <div class="welcome-panel">
+                                    
+                                    <!-- Lang -->
+                                    <div class="lang">
+                                        <span>
+                                             <a href="javascript:;" title="Turkish">TR</a><a href="javascript:;" title="English">EN</a>
+                                        </span>
+                                    </div>
+                                    
+                                    <!-- Booking -->
+                                    <a href="javascript:;" class="panel-button">
+                                        <span>BOOKING</span>
+                                        <i class="fa fa-angle-down"></i>
+                                    </a>
+                                    <div class="panel-form">
+                                        <div class="inner15">
+                                            <form>
+                                                <strong>ROOM AVAILABILITY</strong>
+                                                <div class="form-row two-col">
+                                                    <input class="datepicker" placeholder="Check-in Date" type="text">
+                                                    <input class="datepicker" placeholder="Check-out Date" type="text">
+                                                </div>
+                                                <div class="form-row">
+                                                    <select name="check-in-date">
+                                                        <option>Adults</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                    <select name="check-in-date">
+                                                        <option>Children</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-row">
+                                                    <button type="submit" id="book-now" class="btn btn-default">CHECK AVAILABILITY</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            </div>                         
+                    </div>
+                </div>
+            </div>         
+        </div>
+        <!-- Header Wrapper -->
+        <div class="header-wrapper">
+            <div class="container">
+                <div class="row">
+
+                     <!-- Header Content -->
+                    <div class="header-content">
+
+                        <!-- Head -->
+                        <div class="col-sm-12">
+                            <div class="header-title">
+                                <h2>Typography</h2>
+                            </div>
+                             <ol class="breadcrumb">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="active">Typography</li>
+                            </ol>
+                        </div>            
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <div class="content">
+        <div class="container">
+            <div class="row mb20">
+                <div class="col-md-12">
+                    <h5>Typography Elements</h5>
+                    <!-- Lead Text -->
+                    <p class="lead">This is the lead text, nisl tellus iaculis odio, sit amet laoreet eros turpis vel eros. Pellentesque dapibus ac sapien sit amet facilisis. Nam fermentum urna id ornare volutpat. Maecenas adipiscing velit quis nulla dignissim pretium. Suspendisse at justo sed nisl dapibus viverra.</p>
+                    
+                    
+                    <p>Maecenas feugiat laoreet nisl ac laoreet.
+                        <a href="javascript:;">This is the link view.</a>Nullam eleifend pellentesque tellus quis iaculis. Ut lacus velit, suscipit non iaculis sed, interdum id ligula.
+                        <strong>This is the bold type view.</strong>Phasellus auctor laoreet enim.
+                        <i>This is the italic type view.</i>Nulla pulvinar placerat ligula eu hendrerit.
+                        <u>This is the underline type view</u>,
+                        <del>and be the last one, this is the overline type view.</del>
+                    </p>
+
+                    <br>
+                    
+                    <!-- Blockquote -->
+                    <blockquote>
+                        <strong>Blockquote</strong>
+                        <br>
+                        <p>Curabitur tincidunt vel tortor eu cursus.Suspendisse ac dui nisi. Nam tincidunt euismod velit facilisis aliquam. Nullam vehicula mi facilisis ornare facilisis.</p>
+                    </blockquote>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+                
+                <!-- Headings -->
+                <div class="col-md-6">
+                    <h1>H1 Heading</h1>
+                    <p class="mb40">Cras ut purus gravida, fringilla sem id, consectetur justo. Mauris ac congue neque. Donec quis sodales libero. Aliquam accumsan tortor ac lectus placerat porttitor eu nec tellus. Aliquam eget lectus justo. Integer ornare, nibh at ultrices luctus, dui nunc tempor risus, in condimentum ante eros sagittis magna. Curabitur tincidunt vel tortor eu cursus.</p>
+                    <h2>H2 Heading</h2>
+                    <p class="mb40">Cras ut purus gravida, fringilla sem id, consectetur justo. Mauris ac congue neque. Donec quis sodales libero. Aliquam accumsan tortor ac lectus placerat porttitor eu nec tellus. Aliquam eget lectus justo. Integer ornare, nibh at ultrices luctus, dui nunc tempor risus, in condimentum ante eros sagittis magna. Curabitur tincidunt vel tortor eu cursus.</p>
+                    <h3>H3 Heading</h3>
+                    <p class="mb40">Cras ut purus gravida, fringilla sem id, consectetur justo. Mauris ac congue neque. Donec quis sodales libero. Aliquam accumsan tortor ac lectus placerat porttitor eu nec tellus. Aliquam eget lectus justo. Integer ornare, nibh at ultrices luctus, dui nunc tempor risus, in condimentum ante eros sagittis magna. Curabitur tincidunt vel tortor eu cursus.</p>
+                    <h4>H4 Heading</h4>
+                    <p class="mb40">Cras ut purus gravida, fringilla sem id, consectetur justo. Mauris ac congue neque. Donec quis sodales libero. Aliquam accumsan tortor ac lectus placerat porttitor eu nec tellus. Aliquam eget lectus justo. Integer ornare, nibh at ultrices luctus, dui nunc tempor risus, in condimentum ante eros sagittis magna. Curabitur tincidunt vel tortor eu cursus.</p>
+                    <h5>H5 Heading</h5>
+                    <p class="mb40">Cras ut purus gravida, fringilla sem id, consectetur justo. Mauris ac congue neque. Donec quis sodales libero. Aliquam accumsan tortor ac lectus placerat porttitor eu nec tellus. Aliquam eget lectus justo. Integer ornare, nibh at ultrices luctus, dui nunc tempor risus, in condimentum ante eros sagittis magna. Curabitur tincidunt vel tortor eu cursus.</p>
+                    <h6>H6 Heading</h6>
+                    <p class="mb40">Cras ut purus gravida, fringilla sem id, consectetur justo. Mauris ac congue neque. Donec quis sodales libero. Aliquam accumsan tortor ac lectus placerat porttitor eu nec tellus. Aliquam eget lectus justo. Integer ornare, nibh at ultrices luctus, dui nunc tempor risus, in condimentum ante eros sagittis magna. Curabitur tincidunt vel tortor eu cursus.</p>
+                </div>
+                <div class="col-md-6">
+                    <strong>DROPCAPS</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Dropcaps -->
+                    <p class="dropcap">Chupa chups marzipan marzipan gummies jelly-o cheesecake applicake dessert tiramisu. Chocolate cake souffle wafer sesame snaps halvah. Carrot cake dragee croissant. Candy sugar plum bonbon. Cupcake tiramisu tootsie roll. Icing powder bear claw toffee cookie carrot cake liquorice macaroon.</p>
+                    <hr>
+                    <p class="dropcap colored">Chupa chups marzipan marzipan gummies jelly-o cheesecake applicake dessert tiramisu. Chocolate cake souffle wafer sesame snaps halvah. Carrot cake dragee croissant. Candy sugar plum bonbon. Cupcake tiramisu tootsie roll. Icing powder bear claw toffee cookie carrot cake liquorice macaroon.</p>                    
+                    <br>
+                    <br>
+                    <strong>HIGHLIGHTS</strong>
+                    <br>
+                    <br>
+                    
+                    <!-- Highlights -->
+                    <p>Cras interdum molestie dolor, id posuere nibh. Cras ac lorem nisl.
+                        <span class="highlight black">Integer posuere ante nulla, in varius dolor rhoncus vitae.</span>Cras vel interdum erat, sit amet vulputate sapien. Nam tincidunt rhoncus sapien id cursus. Duis ornare neque nec arcu porta, vel lacinia nisi pulvinar.
+                        <span class="highlight colored">Aenean sit amet eros est. Maecenas fermentum eros tortor, eu vestibulum enim porta id. Suspendisse nisl metus, blandit sed iaculis scelerisque, eleifend vel nisl.</span>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sit amet dolor dui.</p>
+                    <br>
+                    <br>
+                    <strong>ORDERED &frasl; UNORDERED LIST</strong>
+                    <br>
+                    <br>
+                    
+                    
+                    <!-- Ordered List -->
+                    <ol>
+                        <li>Quisque a tortor et eros lacinia aliquam et eget purus.</li>
+                        <li>Suspendisse at justo sed nisl dapibus viverra.</li>
+                        <li>Nunc ac augue tempor, volutpat lacus ut, facilisis sapien.</li>
+                    </ol>
+                    <hr>
+                    
+                    <!-- Unordered List -->
+                    <ul>
+                        <li>Quisque a tortor et eros lacinia aliquam et eget purus.</li>
+                        <li>Suspendisse at justo sed nisl dapibus viverra.</li>
+                        <li>Nunc ac augue tempor, volutpat lacus ut, facilisis sapien.</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <strong>LABELS</strong>
+                    <br>
+                    <br>Quis mauris ut
+                    
+                    <!-- Label Success -->
+                    <span class="label label-success">Label Success</span>, velit porta, sodales risus aliquam, erat lutpat a
+                    
+                    <!-- Label Info -->
+                    <span class="label label-info">Label Info</span>justo vitae sem pretium, nec
+                    
+                    <!-- Label Warning -->
+                    <span class="label label-warning">Label Warning</span>imperdiet lacus tempus sed vulputate molestie massa,
+                    
+                    <!-- Label Danger -->
+                    <span class="label label-danger">Label Danger</span>quam commodo in. Duis luctus, tellus nec varius aliquam, sem orci vehicula nisl, et convallis metus lectus non metus.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <!-- Services -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="main-services">
+                        <div class="main-services-item">
+                            <i class="fa fa-clock-o"></i>
+                            <span>OPEN 24 HOURS</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-medkit"></i>
+                            <span>HOSPITAL</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-plane"></i>
+                            <span>AIRPORT</span>
+                        </div>
+
+                        <div class="main-services-item">
+                            <i class="fa fa-gamepad"></i>
+                            <span>VIDEO GAMES</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-cutlery"></i>
+                            <span>BREAKFAST</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-picture-o"></i>
+                            <span>NATURE LANDSCAPE</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-signal"></i>
+                            <span>WIRELESS</span>
+                        </div>
+                        <div class="main-services-item">
+                            <i class="fa fa-book"></i>
+                            <span>LIBRARY</span>
+                        </div>
+                        <a class="top" href="#top">
+                            <img src="images/arrows/up-arrow.png" width="21" height="12" alt="Go to top" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Contact -->
+                <div class="col-sm-9">
+                    <div class="main-contact">
+                        <img class="logo-footer" src="images/logo.png">
+                        <adress>
+                            <span>
+                                <i class="fa fa-map-marker"></i>393 West Street, New York 163915 U.S</span>
+                            <span>
+                                <i class="fa fa-mobile"></i>5555 555 55 5</span>
+                            <span>
+                                <i class="fa fa-envelope"></i>info@hotelaila.com</span>
+                        </adress>
+                    </div>
+                </div>
+
+                <!-- Social -->
+                <div class="col-sm-3">
+                    <div class="main-social">
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                        <a href="javascript:;">
+                            <span class="fa-stack fa-lg">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                            </span>                             
+                        </a>
+                         
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- Footer Links & Copy -->
+            <div class="row">
+                <div class="col-sm-5">
+                    <ul class="footer-links">
+                        <li>
+                            <a href="javascript:;">PRIVACY POLICY</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">TERMS AND CONDITIONS</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">PRESS</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Copyright -->
+                <div class="col-sm-7">
+                    <div class="copy">
+                        <span>COPYRIGHT © 2013 ALL RIGHT RESERVED. DESIGNED BY
+                            <a href="javascript:;">GRAPHOLY.COM</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Js Plugins-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="js/plugins/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/plugins/dropdown-menu.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.isotope.min.js"></script>
+
+    <!-- Js Main -->
+    <script type="text/javascript" src="js/custom.js"></script>
+     
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+/****************************
+         Primary Color 
+*****************************/
+
+.logo,.mobile-nav, .news-bar > .head,.header-wrapper, .flex-control-paging li a.flex-active, a.panel-button, .panel-form, .carousel-control.left, .carousel-control.right, .img-hover, .main-services, .main-menu-mini ul li:hover, .main-menu-mini ul li.main-menu-hover, .main-menu-mini li.main-menu-mini-hover, ul.main-menu-mini > li:hover, .rooms-hover, .room-type, .dropcap.colored:first-letter, .highlight.colored, button.colored, .loader li{
+	background-color: #E95A3E !important;
+	}
+.main-menu ul, footer, img.border, .ui-datepicker, article > .carousel, article > img,.header-bar,.flexslider,.services .nav-tabs>li.active>a, .services .nav-tabs>li.active>a:focus, .services .nav-tabs>li.active>a:hover{
+	border-color:#E95A3E !important;
+	}
+a:hover,.news-bar a,.main-block:hover h5,aside .price, aside .price2,.galleryfilter a.current,.item-list-icon>i{
+	color:#E95A3E !important;
+	}
+	

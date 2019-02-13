@@ -1,0 +1,171 @@
+/*** DEFAULT COLORS/STYLES ***/
+/* Root links */
+.main-menu a,
+.main-menu a:link,
+.main-menu a:visited {
+    text-decoration: none;
+    color: #B9B9B9;
+    padding: 2px 30px;
+	
+    display:block;
+}
+
+ul.main-menu > li > a,
+ul.main-menu > li > a:link,
+ul.main-menu > li > a:visited {
+	text-transform:uppercase;
+	text-decoration: none !important;
+	padding: 6px 30px;
+	font-size: 13px;
+}
+ 
+/* Root link hover */
+.main-menu a:hover,
+.main-menu li.main-menu-hover > a {
+    color: #FFFFFF !important;
+}
+/* Root menu item hover */
+.main-menu li.main-menu-hover, ul.main-menu > li:hover{
+    color: #fff;
+}
+/* Submenus */
+.main-menu ul {
+    border-bottom-width: 2px;
+	border-bottom-style: solid;
+    padding: 10px 0;
+}
+/* Submenu item hover */
+.main-menu ul li:hover,
+.main-menu ul li.main-menu-hover {
+    color: #fff;
+    
+}
+
+/* Optional submenu drop shadow */
+.main-menu-shadow {
+    -webkit-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*** ESSENTIAL STYLES ***/
+.main-menu {
+    white-space: nowrap;
+    float:left;
+    /* IE7 inline-block fix */
+    *display: inline;
+    *zoom: 1;
+	
+    /* margin: 0 5px; */
+}
+.main-menu ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.main-menu ul {
+    display: none;
+    position: absolute;
+    z-index: 1000000;
+    width: 200px;
+	overflow:visible !important;
+    padding: 15px 0;
+    margin-top: 9px;
+}
+.main-menu ul ul {
+    top: -95%;
+    left: 100%;
+}
+.main-menu li {
+    margin: 0;
+    padding: 16px 0 15px 0;
+    display: inline-block;
+    /* IE7 inline-block and padding fix */
+    *display: inline;
+    *zoom: 1;
+    *vertical-align: bottom;
+	-webkit-transition: all 0.2s ease-in;
+-moz-transition: all 0.2s ease-in;
+-o-transition: all 0.2s ease-in;
+transition: all 0.2s ease-in;
+}
+.main-menu li a {
+    display: block;
+}
+
+.main-menu ul li {
+    position: relative;
+    display: block;
+    padding: 0 !important;
+    font-weight: normal;
+    font-size:0.9em;
+}
+
+.main-menu ul,.main-menu li.main-menu-hover{
+    background: #4B4646;
+}
+
+/* Optional submenu arrows */
+span.main-menu-sub-indicator {
+    margin-left: .5em;
+    display: inline-block;
+    vertical-align: baseline;
+    /* Image Replacement */
+    background-color: transparent;
+    background-image: url('../../images/arrows/arrows.png');
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    width: 10px;
+    height: 10px;
+    border: 0;
+    overflow: hidden;
+    /* IE7 image replacement fix */
+    *text-indent: -9999px;
+    /* IE7 inline-block fix */
+    *display: inline;
+    *zoom: 1;
+    *vertical-align: middle;
+}
+
+span.main-menu-sub-indicator:before {
+    /* Image replacement */
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+/* Arrow hovers */
+.main-menu li:hover > a > span.main-menu-sub-indicator,
+.main-menu li.main-menu-hover > a > span.main-menu-sub-indicator {
+    background-position: -10px -100px;
+}
+/* Point arrows to the right for anchors in subs */
+.main-menu ul span.main-menu-sub-indicator {
+    background-position: 0 0;
+}
+.main-menu ul li:hover > a > span.main-menu-sub-indicator,
+.main-menu ul li.main-menu-hover > a > span.main-menu-sub-indicator {
+    background-position: -9px 0;
+}
+
+/* Vertical-style menu with default width */
+.main-menu-vertical {
+    width: 250px;
+}
+.main-menu-vertical li {
+    display: block;
+    position: relative;
+    /* IE7 fix */
+    *float: left;
+    *width: 100%;
+}
+.main-menu-vertical span.main-menu-sub-indicator {
+
+    background-position: 0 0;
+}
+.main-menu-vertical li:hover > a > span.main-menu-sub-indicator,
+.main-menu-vertical li.main-menu-hover > a > span.main-menu-sub-indicator {
+    background-position: -10px 0;
+}

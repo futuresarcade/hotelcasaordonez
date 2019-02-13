@@ -1,0 +1,103 @@
+/************************** 
+Landscape phones and down
+***************************/
+@media(max-width:767px){
+    .container{ max-width:400px; }
+    .header-wrapper{ height:130px; box-shadow: none; }
+    .news-bar{ visibility:hidden;display:none; }	
+	.mobile-nav{ display:block;margin:17px 0; }
+    .mobile-nav a{ 11px 0;}
+	.main-menu{	display:none; } 
+    .header-bar.sticky .main-menu-mini{ top:104px; }
+    .main-menu-mini{ display:block !important;visibility:visible !important; position:absolute;z-index:999999; top: 130px;width: 70%; background: #463e3e;
+		z-index:99999;margin-top:0 !important; }
+	.main-menu-mini ul{	position:relative;width:100%;top:0 !important;	left: 0px !important;padding:0; }
+	.main-menu-mini li{	display:block;position:relative;	border-bottom: 1px solid #504B4B !important;	}
+	.main-menu-mini a, .main-menu-mini a:link, .main-menu-mini a:visited{ color:#FFF;padding:5px 25px; }
+	.main-menu-mini li.main-menu-mini-hover, ul.main-menu-mini > li:hover, .main-menu-mini ul li.main-menu-mini-hover, ul.main-menu-mini ul > li:hover{
+		box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;background-color:transparent; }	 
+	.main-menu-mini a:hover, .main-menu-mini li.main-menu-mini-hover > a{ font-weight:800;color:#fff; } 
+    .flexslider{ margin-top:131px; }
+    .flexslider .slides .flex-caption{ top:35%; }
+	.flexslider .slides .flex-caption h1{ font-size:3em; }
+	.flexslider .slides .flex-caption p{ display:none !important; }   
+    .subscribe form *{ margin-bottom:15px;text-align:center; }
+    .subscribe form *:last-child{ margin:0; }
+    .subscribe input{ width:100%; }
+    .main-social{ float:left;margin-bottom: 10px; }
+    .main-contact adress span{ display:block;clear:both; }
+    .copy{ float:left;line-height:2;margin-bottom:15px; }    
+    .header-title h2{ font-size: 2em;}
+    .header-content{ padding: 40px 0 0 0; }
+    .breadcrumb{ width:100%; }     
+    .panel-form{ width: 300px; }
+    .panel-form select{ width: 48%; }    
+    .nav > li > a{ padding: 10px 15px }
+    .comments ul{ margin-left: 0; }
+    .facility{ height: auto; }
+    .services .nav-tabs>li{ float:none; }
+    .services .nav-tabs>li>a{width:100%;font-size:1.3em;padding:8px 10px; text-align:center;}
+    .header-bar .bg{ height:129px; }
+    .header-bar.sticky .bg{ height:105px; }
+     article .blog-post-date{ font-size:1.2em; }
+    article .post h5, article .post h4, article .post h3{  font-size:2em; }
+    .headerh1 {font-size: 2.5em;}
+    
+
+
+
+
+/**********************************
+Landscape phone to portrait tablet
+***********************************/
+
+@media(min-width:768px){  
+     
+    .mobile-nav{ display:block;margin-left:0; }	
+	.main-menu{	display:none; }  
+    .header-bar.sticky .main-menu-mini{ top:53px; }
+    .main-menu-mini{ display:block !important;visibility:visible !important;position:absolute;z-index:999999;top: 65px;
+		width: 70%;background:#463e3e;z-index:99999;margin-top:0 !important; }
+	.main-menu-mini ul{	position:relative;background-color:#463e3e;width:100%;top:0 !important;left:0px !important;padding:0; }
+	.main-menu-mini li{	display:block;position:relative;border-bottom:1px solid #504B4B !important;	}    
+	.main-menu-mini a, .main-menu-mini a:link, .main-menu-mini a:visited{ color:#FFF;padding:5px 25px; }
+	.main-menu-mini li.main-menu-mini-hover, ul.main-menu-mini > li:hover, .main-menu-mini ul li.main-menu-mini-hover, ul.main-menu-mini ul > li:hover{
+		box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;background-color:transparent; }	 
+	.main-menu-mini a:hover, .main-menu-mini li.main-menu-mini-hover > a{ font-weight:800;color:#fff; }     
+	.flexslider .slides .flex-caption h1{ font-size:6em; }
+    .news-bar .head{ width: 15%; }
+    .news-bar .carousel-wrapper{ width: 85%; }
+    .services .nav-tabs>li{ float:none; }
+    .services .nav-tabs>li>a{width:100%;font-size:1.3em;padding:8px 10px; text-align:center;}
+    .header-title h2{ font-size: 1.2em;}
+    
+}
+
+/******************************************** 
+ Portrait tablet to landscape and desktop 
+*********************************************/
+
+@media(min-width:992px){
+    
+    .mobile-nav{ display:none; }	
+	.main-menu{	display:block; }
+    .main-menu-mini ul li{ border-bottom:1px solid #000; }
+    ul.main-menu > li > a, ul.main-menu > li > a:link, ul.main-menu > li > a:visited{ padding: 6px 25px; }
+    .flexslider .slides .flex-caption h1{ font-size:8em;font-weight: 300;}
+    .news-bar .head{ width: 10%; }
+    .news-bar .carousel-wrapper{ width: 90%; }
+    .services .nav-tabs>li>a{ font-size: 1.3em; padding: 15px 30px;}
+    .header-title h2{ font-size: 1.2em;}
+    }
+
+/************************
+Large desktop
+*************************/
+
+@media(min-width:1200px){  
+    
+    ul.main-menu > li > a, ul.main-menu > li > a:link, ul.main-menu > li > a:visited{ padding: 6px 30px; }
+    
+}
+
+ 
